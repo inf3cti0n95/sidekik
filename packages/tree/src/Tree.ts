@@ -4,7 +4,7 @@ import { Node } from "./";
 type GetTKey<T> = T extends Node<infer TKey> ? TKey : never;
 
 //Helper Type which shows that type is T or undefined.
-type Optional<T> = T | undefined;
+export type Optional<T> = T | undefined;
 
 /**
  * Implement @abstract Tree<T extends Node<T>> class

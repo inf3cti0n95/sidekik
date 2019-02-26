@@ -1,2 +1,2 @@
 export { Node } from "./Node";
-export { Tree } from "./Tree";
+export { Tree, Optional } from "./Tree";

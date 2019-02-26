@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/inf3cti0n95/sidekik#readme",
   "scripts": {
-    "tsc": "tsc",
+    "compile": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish",
     "lint": "pretty-quick",
     "test": "jest --notify --passWithNoTests"

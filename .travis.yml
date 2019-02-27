@@ -4,19 +4,26 @@ node_js:
   - 10
   - 8
 
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+jobs:
+  include:
+    - stage: test
+      install: travis_retry yarn
+      script: yarn test
+      branches:
+        except:
+          - /^v\d+\.\d+\.\d+$/
 
-cache:
-  yarn: true
-
-install:
-  - travis_retry yarn
-
-script:
-  - yarn test
-  - git config --global user.name "${GH_NAME}"
-  - git config --global user.email "${GH_EMAIL}"
-  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
+    - stage: deploy
+      name: "Deploy Documentation"
+      cache:
+        yarn: true
+      install:
+        - travis_retry yarn
+      branches:
+        only:
+          - master
+      script:
+        - git config --global user.name "${GH_NAME}"
+        - git config --global user.email "${GH_EMAIL}"
+        - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
+        - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages

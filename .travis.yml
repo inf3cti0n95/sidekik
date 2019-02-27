@@ -19,6 +19,7 @@ jobs:
         yarn: true
       install:
         - travis_retry yarn
+      if: type = push
       branches:
         only:
           - master

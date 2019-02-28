@@ -38,42 +38,55 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
-    { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    {
+      doc: "doc1",
+      label: "Docs"
+    },
+    {
+      doc: "doc4",
+      label: "API"
+    },
+    {
+      page: "help",
+      label: "Help"
+    },
+    {
+      blog: true,
+      label: "Blog"
+    }
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: "img/docusaurus.svg",
-  footerIcon: "img/docusaurus.svg",
+  headerIcon: "img/logos/horizontal-white.svg",
+  footerIcon: "img/logos/vertical-white.svg",
   favicon: "img/favicon.png",
 
   /* Colors for website */
   colors: {
-    primaryColor: "#2E8555",
-    secondaryColor: "#205C3B"
+    primaryColor: "#20232a",
+    secondaryColor: "#007aff",
+    secondaryColorGreen: "#00ff91"
   },
-
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
-      "Serif"
-    ],
-    myOtherFont: [
       "-apple-system",
-      "system-ui"
-    ]
+      "BlinkMacSystemFont",
+      "Segoe UI",
+      "Roboto",
+      "Oxygen",
+      "Ubuntu",
+      "Cantarell",
+      "Fira Sans",
+      "Droid Sans",
+      "Helvetica Neue",
+      "sans-serif"
+    ],
+    myOtherFont: ["-apple-system", "system-ui"]
   },
-  */
-
-  // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

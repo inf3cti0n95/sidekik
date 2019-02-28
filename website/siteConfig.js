@@ -43,16 +43,12 @@ const siteConfig = {
       label: "Docs"
     },
     {
-      doc: "doc4",
-      label: "API"
+      doc: "contribution-guide",
+      label: "Contributing"
     },
     {
       page: "help",
       label: "Help"
-    },
-    {
-      blog: true,
-      label: "Blog"
     }
   ],
 

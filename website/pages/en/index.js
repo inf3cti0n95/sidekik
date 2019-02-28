@@ -22,23 +22,20 @@ class HomeSplash extends React.Component {
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
     const SplashContainer = props => (
-      <div className="homeContainer">
+      <div
+        className="homeContainer"
+        style={{ backgroundColor: siteConfig.colors.primaryColor }}
+      >
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
       </div>
     );
 
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
-      </div>
-    );
-
-    const ProjectTitle = () => (
+    const ProjectTitle = props => (
       <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+        <img width="300" src={props.img_src} alt="Project Logo" />
+        <small style={{ color: "white" }}>{siteConfig.tagline}</small>
       </h2>
     );
 
@@ -52,7 +49,15 @@ class HomeSplash extends React.Component {
 
     const Button = props => (
       <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
+        <a
+          style={{
+            borderColor: siteConfig.colors.secondaryColor,
+            color: "#fff"
+          }}
+          className="button"
+          href={props.href}
+          target={props.target}
+        >
           {props.children}
         </a>
       </div>
@@ -60,14 +65,11 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
         <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl("doc1.html")}>Example Link</Button>
-            <Button href={docUrl("doc2.html")}>Example Link 2</Button>
-          </PromoSection>
+          <ProjectTitle
+            img_src={`${baseUrl}img/logos/vertical-white.svg`}
+            siteConfig={siteConfig}
+          />
         </div>
       </SplashContainer>
     );
@@ -147,16 +149,18 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content:
+              "Sidekik is built with TypeScript, providing excellent developer experience.",
+            image: `${baseUrl}img/features/typescript.svg`,
             imageAlign: "top",
-            title: "Feature One"
+            title: "Built with TypeScript"
           },
           {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/docusaurus.svg`,
+            content:
+              "Contains myriad of Data Structures and Algorithms ready to use.",
+            image: `${baseUrl}img/features/algorithms.svg`,
             imageAlign: "top",
-            title: "Feature Two"
+            title: "Data Structures and Algorithms"
           }
         ]}
       </Block>

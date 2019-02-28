@@ -25,16 +25,6 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
-          </a>
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl("doc1.html", this.props.language)}>
@@ -87,19 +77,27 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://code.facebook.com/projects/"
-          target="_blank"
+          href={this.props.config.baseUrl}
           rel="noreferrer noopener"
           className="fbOpenSource"
         >
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
+            src={`${this.props.config.baseUrl}img/logos/horizontal-white.svg`}
+            alt="Sidekik"
             width="170"
             height="45"
           />
         </a>
-        <section className="copyright">{this.props.config.copyright}</section>
+        <section className="copyright fbOpenSource">
+          This project is licensed under the{" "}
+          <a
+            style={{ color: "white" }}
+            href="https://github.com/inf3cti0n95/sidekik/blob/master/LICENSE"
+          >
+            MIT License
+          </a>
+          .
+        </section>
       </footer>
     );
   }

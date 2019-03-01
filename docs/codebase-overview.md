@@ -56,3 +56,7 @@ However, there are still some styles that the linter cannot pick up. If you are 
 ## Versioning
 
 Sidekik follows [semantic versioning](https://semver.org/). We release patch versions for bugfixes, minor versions for new features, and major versions for any breaking changes. When we make breaking changes, we also introduce deprecation warnings in a minor version so that our users learn about the upcoming changes and migrate their code in advance.
+
+## What Next?
+
+Read the [next section](design-principles.md) to the design principles behind sidekik.

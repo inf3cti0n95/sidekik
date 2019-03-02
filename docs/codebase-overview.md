@@ -7,29 +7,6 @@ title: Codebase Overview
 
 At sidekik, we use the Mono Repository Architecture to manage all the packages under on repository. So that managing different packages becomes less tedious. We use [Lerna](https://lernajs.io/) to handle the core packages within the monorepo.
 
-## Directory Structure
-
-All the packages in the project are maintained under the `packages` directory. Below is the example of a `@sidekik/tree` package.
-
-```sh
-packages
-└── tree # package directory
-    ├── lib # contains the compile javascript code.
-    │   ├── index.d.ts
-    │   ├── index.js # entrypoint of the compiled library.
-    |   ...
-    ├── package.json # contains package information related to '@sidekik/tree' package.
-    ├── README.md # contains basic documentation related to the package.
-    ├── src # contains the main source files.
-    │   ├── index.ts # entrypoint of the source library.
-    │   ├── Node.ts
-    │   └── Tree.ts
-    ├── __tests__ # contains unit tests related to the package
-    │   ├── Node.spec.ts
-    │   └── Tree.spec.ts
-    └── tsconfig.json # contains TypeScript configurations related to the package.
-```
-
 ## Development Workflow
 
 After cloning sidekik, run `yarn` to fetch its dependencies.
@@ -59,4 +36,4 @@ Sidekik follows [semantic versioning](https://semver.org/). We release patch ver
 
 ## What Next?
 
-Read the [next section](design-principles.md) to the design principles behind sidekik.
+Read the [next section](package-codebase.md) which discusses the codebase of every package in the repository.

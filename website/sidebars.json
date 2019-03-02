@@ -1,0 +1,10 @@
+{
+  "contributing": {
+    "Contributing": [
+      "contribution-guide",
+      "codebase-overview",
+      "package-codebase",
+      "design-principles"
+    ]
+  }
+}

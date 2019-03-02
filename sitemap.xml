@@ -3,14 +3,8 @@
 <url> <loc>https://inf3cti0n95.github.io/sidekik/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/en/help" /> </url>
 <url> <loc>https://inf3cti0n95.github.io/sidekik/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/en/index" /> </url>
 <url> <loc>https://inf3cti0n95.github.io/sidekik/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/en/users" /> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/blog/2017/10/24/new-version-1.0.0</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/blog/2017/09/26/adding-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/blog/2017/09/25/testing-rss</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/blog/2017/04/10/blog-post-two</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/blog/2016/03/11/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/doc1</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/doc1" /> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/doc2</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/doc2" /> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/doc3</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/doc3" /> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/doc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/doc4" /> </url>
-<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/doc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/doc5" /> </url>
+<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/codebase-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/codebase-overview" /> </url>
+<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/contribution-guide</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/contribution-guide" /> </url>
+<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/design-principles</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/design-principles" /> </url>
+<url> <loc>https://inf3cti0n95.github.io/sidekik/docs/package-codebase</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://inf3cti0n95.github.io/sidekik/docs/package-codebase" /> </url>
 </urlset>

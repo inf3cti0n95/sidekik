@@ -23,12 +23,12 @@
 const siteConfig = {
   title: "sidekik", // Title for your website.
   tagline: "Sidekik for all Data Structures and Algorithms you need.",
-  url: "https://inf3cti0n95.github.io", // Your website URL
-  baseUrl: "/sidekik/", // Base URL for your project */
+  url: "https://sidekik.js.org", // Your website URL
+  baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
-
+  cname: "sidekik.js.org",
   // Used for publishing and more
   projectName: "sidekik",
   organizationName: "inf3cti0n95",

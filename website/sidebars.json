@@ -6,5 +6,8 @@
       "package-codebase",
       "design-principles"
     ]
+  },
+  "docs": {
+    "Data Strucutures": ["datastrucutures-intro"]
   }
 }

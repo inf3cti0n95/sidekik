@@ -98,7 +98,7 @@ export abstract class Tree<T extends Node<unknown>> {
    * @returns Optional<T> should returns Node if predecessor node is found.
    * returns `undefined` if no node is found.
    */
-  abstract predecessor(key: GetTKey<T>): T;
+  abstract predecessor(key: GetTKey<T>): Optional<T>;
 
   /**
    * Implement `successor` function to search nodes in the tree.

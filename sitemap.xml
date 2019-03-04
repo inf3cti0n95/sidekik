@@ -8,4 +8,7 @@
 <url> <loc>https://sidekik.js.org/docs/datastructures-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/datastructures-overview" /> </url>
 <url> <loc>https://sidekik.js.org/docs/design-principles</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/design-principles" /> </url>
 <url> <loc>https://sidekik.js.org/docs/package-codebase</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/package-codebase" /> </url>
+<url> <loc>https://sidekik.js.org/docs/tree-introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-introduction" /> </url>
+<url> <loc>https://sidekik.js.org/docs/tree-node-abstract-class</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-node-abstract-class" /> </url>
+<url> <loc>https://sidekik.js.org/docs/tree-tree-abstract-class</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-tree-abstract-class" /> </url>
 </urlset>

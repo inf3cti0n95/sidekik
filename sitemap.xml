@@ -5,6 +5,7 @@
 <url> <loc>https://sidekik.js.org/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/en/users" /> </url>
 <url> <loc>https://sidekik.js.org/docs/codebase-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/codebase-overview" /> </url>
 <url> <loc>https://sidekik.js.org/docs/contribution-guide</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/contribution-guide" /> </url>
+<url> <loc>https://sidekik.js.org/docs/datastructures-overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/datastructures-overview" /> </url>
 <url> <loc>https://sidekik.js.org/docs/design-principles</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/design-principles" /> </url>
 <url> <loc>https://sidekik.js.org/docs/package-codebase</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/package-codebase" /> </url>
 </urlset>

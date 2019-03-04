@@ -36,7 +36,8 @@
     "compile": "lerna run tsc",
     "publish": "lerna run tsc && lerna publish",
     "lint": "pretty-quick",
-    "test": "jest --notify --passWithNoTests"
+    "test": "jest --notify --passWithNoTests",
+    "deploy:docs": "./website/deployment/deploy-docs.sh"
   },
   "keywords": [
     "data-structures",

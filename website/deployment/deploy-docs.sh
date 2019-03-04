@@ -16,8 +16,7 @@ for dir in $(ls packages/* -d);
     do 
         for doc in $(ls $dir/docs/*.md);
             do
-                cp $doc $PWD/docs/$(basename $dir)-$(basename $doc)
-                echo Copied $dir/docs/$(basename $doc) to docs/$(basename $dir)-$(basename $doc) 
+                ./website/deployment/copy-doc.js --source $doc --dest $PWD/docs/$(basename $dir)-$(basename $doc) --package $(basename $dir)
             done
     done
 

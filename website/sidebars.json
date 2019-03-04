@@ -8,6 +8,11 @@
     ]
   },
   "docs": {
-    "Data Strucutures": ["datastructures-overview"]
+    "Data Strucutures": ["datastructures-overview"],
+    "Tree": [
+      "tree-introduction",
+      "tree-node-abstract-class",
+      "tree-tree-abstract-class"
+    ]
   }
 }

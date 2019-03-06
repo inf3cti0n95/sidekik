@@ -95,3 +95,10 @@ lerna-debug.log
 
 # Typescript Compiled Library
 packages/*/lib
+
+# Docusaurus Ignore Files
+website/translated_docs
+website/build/
+website/yarn.lock
+website/node_modules
+website/i18n/*

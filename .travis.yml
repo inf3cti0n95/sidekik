@@ -9,7 +9,7 @@ node_js:
 install:
   - yarn
   - yarn compile
-  - yarn bootstrap --no-ci --force-local
+  - yarn bootstrap
 
 jobs:
   include:

@@ -34,5 +34,8 @@
   },
   "bugs": {
     "url": "https://github.com/inf3cti0n95/sidekik/issues"
+  },
+  "dependencies": {
+    "@sidekik/utils": "^0.0.0"
   }
 }

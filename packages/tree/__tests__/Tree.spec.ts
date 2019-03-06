@@ -1,4 +1,5 @@
-import { Node, Tree, Optional } from "../src";
+import { Optional } from "@sidekik/utils";
+import { Node, Tree } from "../src";
 
 class TestNode extends Node<number> {}
 

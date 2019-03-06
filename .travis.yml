@@ -4,6 +4,13 @@ node_js:
   - 10
   - 8
 
+# Keeping the Bootstrap Command to link all the packages
+# till the release of the actual packages.
+install:
+  - yarn
+  - yarn compile
+  - yarn bootstrap
+
 jobs:
   include:
     - stage: deploy

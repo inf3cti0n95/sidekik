@@ -1,10 +1,8 @@
+import { Optional } from "@sidekik/utils";
 import { Node } from "./";
 
 //Inferring Type of the Key in the Node class.
 type GetTKey<T> = T extends Node<infer TKey> ? TKey : never;
-
-//Helper Type which shows that type is T or undefined.
-export type Optional<T> = T | undefined;
 
 /**
  * Implement @abstract Tree<T extends Node<T>> class

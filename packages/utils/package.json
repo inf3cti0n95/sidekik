@@ -1,0 +1,36 @@
+{
+  "name": "@sidekik/utils",
+  "version": "0.0.0",
+  "description": "Common utilities for sidekik packages.",
+  "keywords": [
+    "sidekik",
+    "utils",
+    "utilities"
+  ],
+  "author": "Viraj Trivedi <inf3cti0n95@gmail.com>",
+  "homepage": "https://github.com/inf3cti0n95/sidekik/tree/master/packages/utils#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inf3cti0n95/sidekik.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/inf3cti0n95/sidekik/issues"
+  }
+}

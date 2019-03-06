@@ -8,6 +8,7 @@ node_js:
 # till the release of the actual packages.
 install:
   - yarn
+  - yarn compile
   - yarn bootstrap --no-ci --force-local
 
 jobs:

@@ -6,13 +6,6 @@ node_js:
 
 jobs:
   include:
-    - stage: test
-      install: travis_retry yarn
-      script: yarn test
-      branches:
-        except:
-          - /^v\d+\.\d+\.\d+$/
-
     - stage: deploy
       name: "Deploy Documentation"
       cache:

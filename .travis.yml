@@ -8,7 +8,7 @@ node_js:
 # till the release of the actual packages.
 install:
   - yarn
-  - yarn bootstrap
+  - yarn bootstrap --no-ci
 
 jobs:
   include:

@@ -11,4 +11,5 @@
 <url> <loc>https://sidekik.js.org/docs/tree-introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-introduction" /> </url>
 <url> <loc>https://sidekik.js.org/docs/tree-node-abstract-class</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-node-abstract-class" /> </url>
 <url> <loc>https://sidekik.js.org/docs/tree-tree-abstract-class</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/tree-tree-abstract-class" /> </url>
+<url> <loc>https://sidekik.js.org/docs/utils-introduction</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sidekik.js.org/docs/utils-introduction" /> </url>
 </urlset>
